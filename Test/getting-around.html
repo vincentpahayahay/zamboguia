@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food</title>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Zamboanga City Guide</h1>
+      <nav>
+        <ul>
+          <li><a href="index2.html">Home</a></li>
+          <li><a href="thingstodo.html">Things to Do</a></li>
+          <li class="btn1">
+            <a href="">Accommodation</a>
+          </li>
+          <li><a href="food.html">Food and Drink</a></li>
+          <li><a href="getting-around.html">Transportation</a></li>
+          <li><a href="aboutZC.html">About Zamboanga City</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="places" id="places">
+      <h4 class="heading">
+        <span style="color: #4c4b4b">G</span>
+        <span style="color: #4c4b4b">e</span>
+        <span style="color: #4c4b4b">t</span>
+        <span style="color: #4c4b4b">t</span>
+        <span style="color: #4c4b4b">i</span>
+        <span style="color: #4c4b4b">n</span>
+        <span style="color: #4c4b4b">g</span>
+        <span class="space"></span>
+        <span style="color: #4c4b4b">A</span>
+        <span style="color: #4c4b4b">r</span>
+        <span style="color: #4c4b4b">o</span>
+        <span style="color: #4c4b4b">u</span>
+        <span style="color: #4c4b4b">n</span>
+        <span style="color: #4c4b4b">d</span>
+      </h4>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/jeep.jpg" alt="" />
+          <div class="content">
+            <h3>Jeepney</h3>
+            <p></p>
+            <a href="jeep.html" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/tricycle.png" alt="" />
+          <div class="content">
+            <h3>Tricycle</h3>
+            <p></p>
+            <a href="tricycle.html" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/taxi.png" alt="" />
+          <div class="content">
+            <h3>Taxi</h3>
+            <p></p>
+            <a href="taxi.html" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/rickshaw.png" alt="" />
+          <div class="content">
+            <h3>Rickshaw</h3>
+            <p></p>
+            <a href="rickshaw.html" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/modernjeep.jpg" alt="" />
+          <div class="content">
+            <h3>Modernjeep</h3>
+            <p></p>
+            <a href="modernjeep.html" class="btn">see more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    const btn = document.querySelector(".btn1");
+    btn.addEventListener("click", () => {
+      window.open(
+        "https://www.tripadvisor.com/SmartDeals-g6090474-Zamboanga_Peninsula_Mindanao-Hotel-Deals.html",
+        "_blank",
+        "width=500,height=1000"
+      );
+    });
+  </script>
+</html>
