@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeepney</title>
+
+    <style>
+      body {
+        background-color: #ffffff;
+        margin: 0 15%;
+        font-family: sans-serif;
+      }
+      body .img {
+        width: 100%;
+        border-radius: 3%;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #57b1dc;
+        margin-top: 30px;
+      }
+      a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+      }
+
+      a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .previous {
+        background-color: orange;
+        color: black;
+      }
+
+      .next {
+        background-color: orange;
+        color: black;
+      }
+
+      .home {
+        background-color: orange;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="jeep.html" class="previous">&laquo; Previous</a>
+    <a href="taxi.html" class="next">Next &raquo;</a>
+    <a href="getting-around.html" class="home">Home</a>
+
+    <h1 style="color: rgb(10, 10, 10)">Tricycle</h1>
+    <img class="img" src="images/tricycle.png" alt="" />
+    <p>
+      Motorized tricycles, or simply tricycles (Filipino: traysikel; Cebuano:
+      traysikol), is a type of motorized vehicle from the Philippines consisting
+      of a motorcycle attached to a passenger cab. Along with the jeepney, it is
+      one of the most common means of public or private transportation in the
+      Philippines, especially in rural areas. These public utility vehicles
+      either ply a set route or are for-hire, like taxis.
+    </p>
+
+    <p>
+      Passenger tricycles can accommodate from four passengers up to as many as
+      six or more, excluding the driver. Goods can be placed on the roof. One or
+      two passengers can sit behind the driver while several more can sit in the
+      sidecar, depending upon the design. Additional passengers can sit on the
+      roof or stand hanging onto the side or back of the sidecar. In rainy
+      weather, a tricycle will be completely enclosed in heavy plastic covering.
+    </p>
+    <p><b>Hail the tricycle like how you would hail a cab or a jeepney.</b></p>
+
+    <div id="disqus_thread"></div>
+    <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+      (function () {
+        // DON'T EDIT BELOW THIS LINE
+        var d = document,
+          s = d.createElement("script");
+        s.src = "https://zamboguia-3.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
+  </body>
+</html>

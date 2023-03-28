@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zamboanga City Guide</title>
+
+    <link rel="stylesheet" type="text/css" href="style.CSS" />
+    <link rel = "stylesheet" href = "jquery-ui.css"></link>
+    <script src="jquery-3.6.3.js"></script>
+    <script src="jquery-ui.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Zamboanga City Guide</h1>
+      <nav>
+        <ul>
+          
+          <li><a href="thingstodo.html">Things to Do</a></li>
+          <li class="btn">
+            <a href="">Accommodation</a>
+          </li>
+          <li><a href="food.html">Food and Drink</a></li>
+          <li><a href="getting-around.html">Transportation</a></li>
+          <li><a href="aboutZC.html">About Zamboanga City</a></li>
+          <li id="openbox"><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="video-container">
+        <video
+          src="images/vid-1.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+      <div class="control">
+        <h4 style="color: #333">
+          Credits to:
+          <cite style="color: blue"
+            ><a href="https://www.youtube.com/@TourismPhilippines"
+              >Tourism Philippines</a
+            ></cite
+          >
+          for the wonderful video
+        </h4>
+      </div>
+    </section>
+
+    <main>
+      <h2>Discover Zamboanga City</h2>
+      <p>
+        Zamboanga City is a vibrant and diverse city with a rich history,
+        stunning natural beauty, and unique cultural experiences. Whether you're
+        interested in exploring the city's historical sites, enjoying outdoor
+        adventures, or immersing yourself in local culture, Zamboanga City has
+        something for everyone.
+      </p>
+      <a href="thingstodo.html">Start exploring</a>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2023 Zamboanga City Tourist Guide</p>
+    </footer>
+    <div id="box" title="Gmail">
+      <p>vincentpahayahay1998@gmail.com</p>
+    </div>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $("#openbox").click(function () {
+        $("#box").dialog("open");
+      });
+      $("#box").dialog({
+        autoOpen: false,
+        show: { effect: "blind", duration: 1000 },
+        hide: { effect: "explode", duration: 1000 },
+      });
+    });
+  </script>
+    <script>
+      const btn = document.querySelector('.btn');
+    btn.addEventListener('click', () => {
+      window.open('https://www.tripadvisor.com/SmartDeals-g6090474-Zamboanga_Peninsula_Mindanao-Hotel-Deals.html', '_blank', 'width=500,height=1000');
+    });
+      </script>
+</html>
