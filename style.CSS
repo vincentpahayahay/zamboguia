@@ -24,11 +24,6 @@ nav {
   left: 0;
   right: 0;
   z-index: 1;
-				font-size: 14px;
-				line-height: 1.4;
-				max-width: 100%;
-				margin: 0;
-				padding: 10px;
 }
 
 nav ul {
@@ -116,14 +111,3 @@ footer p {
   margin: 0;
   font-size: 14px;
 }
-@media screen and (max-width: 767px) 
-		{
-			body 
-			{
-				font-size: 14px;
-				line-height: 1.4;
-				max-width: 100%;
-				margin: 0;
-				padding: 10px;
-			}
-		}
