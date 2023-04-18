@@ -5,9 +5,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #333;
-  background: linear-gradient(#333,black);
+  background: linear-gradient(#333,black  );
   color: #fff;
   text-align: center;
 }
@@ -24,7 +25,6 @@ nav {
   left: 0;
   right: 0;
   z-index: 1;
-
 }
 
 nav ul {
@@ -35,9 +35,8 @@ nav ul {
   justify-content: center;
 }
 
-
 nav li {
-  margin: 0 20px;
+  margin: 0 0px;
 }
 
 nav a {
@@ -45,7 +44,7 @@ nav a {
   text-decoration: none;
 
   display: block;
-  padding: 20px;
+  padding: 10px;
   transition: background 750ms;
 }
 
@@ -68,7 +67,7 @@ main h2 {
 
 main a {
   background-color: #333;
-  background: linear-gradient(#333,black);
+   background: linear-gradient(#333,black  );
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -100,7 +99,7 @@ main a:hover {
 
 footer {
   background-color: #333;
-  background: linear-gradient(#333,black);
+  background: linear-gradient(#333,black  );
   color: white;
   text-align: center;
   padding: 20px;
@@ -112,5 +111,76 @@ footer {
 
 footer p {
   margin: 0;
-  font-size: 14px;
+  font-size: 8px;
 }
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  header h1 {
+  font-size: 28px;
+  }
+  
+  nav li {
+  margin: 0 10px;
+  }
+  
+  nav a {
+  padding: 10px;
+  }
+  
+  main {
+  padding: 40px 10px;
+  }
+  
+  main h2 {
+  font-size: 28px;
+  }
+  
+  main a {
+  font-size: 16px;
+  padding: 8px 16px;
+  }
+  
+  .home .controls {
+  top: 5rem;
+  }
+  
+  footer p {
+  font-size: 6px;
+  }
+  }
+  
+  @media screen and (max-width: 480px) {
+  header h1 {
+  font-size: 20px;
+  }
+  
+  nav li {
+  margin: 0 0px;
+  }
+  
+  nav a {
+  padding: 8px;
+  }
+  
+  main {
+  padding: 20px 5px;
+  }
+  
+  main h2 {
+  font-size: 24px;
+  }
+  
+  main a {
+  font-size: 14px;
+  padding: 6px 12px;
+  }
+  
+  .home .controls {
+  top: 3rem;
+  }
+  
+  footer p {
+  font-size: 4px;
+  }
+  }
