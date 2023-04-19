@@ -141,8 +141,11 @@ footer p {
   padding: 8px 16px;
   }
   
-  .home .controls {
+  .home .control {
   top: 5rem;
+  }
+  .home .control h4, .home .control a {
+   font-size: 10px;
   }
   
   footer p {
@@ -176,8 +179,11 @@ footer p {
   padding: 6px 12px;
   }
   
-  .home .controls {
+  .home .control {
   top: 3rem;
+  }
+  .home .control h4, .home .control a {
+   font-size: 10px;
   }
   
   footer p {
